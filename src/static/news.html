@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Schedule - H2PETRONS</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <h1>H2PETRONS</h1>
+                    <span class="logo-tagline">Research Hub</span>
+                </a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="news.html" class="active">News & Schedule</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="#" class="btn-secondary">Login</a>
+                <a href="#" class="btn-primary">Join Community</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>News & Schedule</h1>
+                <p>Stay updated with the latest F1 news and never miss a race with our comprehensive schedule</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Schedule Navigation -->
+    <section class="news-nav">
+        <div class="container">
+            <div class="news-nav-tabs">
+                <button class="nav-tab active" data-tab="news">Latest News</button>
+                <button class="nav-tab" data-tab="schedule">Race Schedule</button>
+                <button class="nav-tab" data-tab="results">Results & Standings</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="news-content" id="news-tab">
+        <div class="container">
+            <div class="news-grid">
+                <!-- Featured News -->
+                <div class="news-featured">
+                    <article class="featured-article">
+                        <div class="article-image">
+                            <img src="https://via.placeholder.com/600x300" alt="Italian GP Preview">
+                            <div class="article-category">Race Preview</div>
+                        </div>
+                        <div class="article-content">
+                            <h2>Italian GP Preview: Mercedes Aims for Home Advantage</h2>
+                            <p>As Formula 1 heads to Monza for the Italian Grand Prix, Mercedes-AMG PETRONAS F1 Team looks to capitalize on their recent performance improvements and the passionate Italian crowd support.</p>
+                            <div class="article-meta">
+                                <span class="article-date">December 15, 2024</span>
+                                <span class="article-author">by F1 Editorial Team</span>
+                                <span class="article-read-time">5 min read</span>
+                            </div>
+                            <a href="#" class="btn-primary">Read Full Article</a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- News List -->
+                <div class="news-list">
+                    <h3>Latest Updates</h3>
+                    
+                    <article class="news-item">
+                        <div class="news-item-image">
+                            <img src="https://via.placeholder.com/120x80" alt="Technical Update">
+                        </div>
+                        <div class="news-item-content">
+                            <div class="news-item-category">Technical</div>
+                            <h4>Mercedes Introduces New Aerodynamic Package</h4>
+                            <p>The team brings significant upgrades to their W15 for the Italian GP weekend...</p>
+                            <div class="news-item-meta">
+                                <span>2 hours ago</span>
+                                <span>•</span>
+                                <span>Technical Team</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <div class="news-item-image">
+                            <img src="https://via.placeholder.com/120x80" alt="Driver Interview">
+                        </div>
+                        <div class="news-item-content">
+                            <div class="news-item-category">Interview</div>
+                            <h4>Russell: "We're Ready to Fight for Victory"</h4>
+                            <p>George Russell discusses the team's preparation and expectations for Monza...</p>
+                            <div class="news-item-meta">
+                                <span>4 hours ago</span>
+                                <span>•</span>
+                                <span>Media Team</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <div class="news-item-image">
+                            <img src="https://via.placeholder.com/120x80" alt="Strategy Analysis">
+                        </div>
+                        <div class="news-item-content">
+                            <div class="news-item-category">Analysis</div>
+                            <h4>Monza Strategy Guide: Key Factors for Success</h4>
+                            <p>Our strategy team breaks down the critical elements for a successful Italian GP...</p>
+                            <div class="news-item-meta">
+                                <span>6 hours ago</span>
+                                <span>•</span>
+                                <span>Strategy Team</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <div class="news-item-image">
+                            <img src="https://via.placeholder.com/120x80" alt="Community News">
+                        </div>
+                        <div class="news-item-content">
+                            <div class="news-item-category">Community</div>
+                            <h4>New Research Paper: Tire Degradation Analysis</h4>
+                            <p>Community member Dr. Sarah Mitchell publishes comprehensive tire study...</p>
+                            <div class="news-item-meta">
+                                <span>8 hours ago</span>
+                                <span>•</span>
+                                <span>Research Team</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <div class="news-item-image">
+                            <img src="https://via.placeholder.com/120x80" alt="Team News">
+                        </div>
+                        <div class="news-item-content">
+                            <div class="news-item-category">Team News</div>
+                            <h4>Antonelli Completes Successful Practice Session</h4>
+                            <p>Kimi Antonelli gains valuable experience during Friday practice at Monza...</p>
+                            <div class="news-item-meta">
+                                <span>12 hours ago</span>
+                                <span>•</span>
+                                <span>Team Reporter</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="load-more">
+                        <button class="btn-secondary">Load More News</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Race Schedule Section -->
+    <section class="schedule-content" id="schedule-tab" style="display: none;">
+        <div class="container">
+            <div class="schedule-header">
+                <h2>2025 Formula 1 Season</h2>
+                <div class="season-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 65%;"></div>
+                    </div>
+                    <span class="progress-text">Round 16 of 24</span>
+                </div>
+            </div>
+
+            <div class="schedule-grid">
+                <!-- Upcoming Races -->
+                <div class="schedule-section">
+                    <h3>Upcoming Races</h3>
+                    
+                    <div class="race-card upcoming">
+                        <div class="race-flag">
+                            <img src="https://via.placeholder.com/60x40" alt="Italy Flag">
+                        </div>
+                        <div class="race-info">
+                            <h4>Italian Grand Prix</h4>
+                            <p class="race-location">Autodromo Nazionale di Monza</p>
+                            <p class="race-date">December 15, 2024</p>
+                        </div>
+                        <div class="race-countdown">
+                            <div class="countdown-timer">
+                                <span class="countdown-days">2</span>
+                                <span class="countdown-label">Days</span>
+                            </div>
+                        </div>
+                        <div class="race-actions">
+                            <button class="btn-primary small">Set Reminder</button>
+                        </div>
+                    </div>
+
+                    <div class="race-card">
+                        <div class="race-flag">
+                            <img src="https://via.placeholder.com/60x40" alt="Singapore Flag">
+                        </div>
+                        <div class="race-info">
+                            <h4>Singapore Grand Prix</h4>
+                            <p class="race-location">Marina Bay Street Circuit</p>
+                            <p class="race-date">December 22, 2024</p>
+                        </div>
+                        <div class="race-countdown">
+                            <div class="countdown-timer">
+                                <span class="countdown-days">9</span>
+                                <span class="countdown-label">Days</span>
+                            </div>
+                        </div>
+                        <div class="race-actions">
+                            <button class="btn-secondary small">Set Reminder</button>
+                        </div>
+                    </div>
+
+                    <div class="race-card">
+                        <div class="race-flag">
+                            <img src="https://via.placeholder.com/60x40" alt="Japan Flag">
+                        </div>
+                        <div class="race-info">
+                            <h4>Japanese Grand Prix</h4>
+                            <p class="race-location">Suzuka International Racing Course</p>
+                            <p class="race-date">December 29, 2024</p>
+                        </div>
+                        <div class="race-countdown">
+                            <div class="countdown-timer">
+                                <span class="countdown-days">16</span>
+                                <span class="countdown-label">Days</span>
+                            </div>
+                        </div>
+                        <div class="race-actions">
+                            <button class="btn-secondary small">Set Reminder</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Races -->
+                <div class="schedule-section">
+                    <h3>Recent Races</h3>
+                    
+                    <div class="race-card completed">
+                        <div class="race-flag">
+                            <img src="https://via.placeholder.com/60x40" alt="Netherlands Flag">
+                        </div>
+                        <div class="race-info">
+                            <h4>Dutch Grand Prix</h4>
+                            <p class="race-location">Circuit Zandvoort</p>
+                            <p class="race-date">December 8, 2024</p>
+                        </div>
+                        <div class="race-result">
+                            <div class="result-position">P4</div>
+                            <div class="result-driver">Russell</div>
+                        </div>
+                        <div class="race-actions">
+                            <button class="btn-secondary small">View Results</button>
+                        </div>
+                    </div>
+
+                    <div class="race-card completed">
+                        <div class="race-flag">
+                            <img src="https://via.placeholder.com/60x40" alt="Belgium Flag">
+                        </div>
+                        <div class="race-info">
+                            <h4>Belgian Grand Prix</h4>
+                            <p class="race-location">Circuit de Spa-Francorchamps</p>
+                            <p class="race-date">December 1, 2024</p>
+                        </div>
+                        <div class="race-result">
+                            <div class="result-position">P3</div>
+                            <div class="result-driver">Russell</div>
+                        </div>
+                        <div class="race-actions">
+                            <button class="btn-secondary small">View Results</button>
+                        </div>
+                    </div>
+
+                    <div class="race-card completed">
+                        <div class="race-flag">
+                            <img src="https://via.placeholder.com/60x40" alt="Hungary Flag">
+                        </div>
+                        <div class="race-info">
+                            <h4>Hungarian Grand Prix</h4>
+                            <p class="race-location">Hungaroring</p>
+                            <p class="race-date">November 24, 2024</p>
+                        </div>
+                        <div class="race-result">
+                            <div class="result-position">P2</div>
+                            <div class="result-driver">Russell</div>
+                        </div>
+                        <div class="race-actions">
+                            <button class="btn-secondary small">View Results</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Season Calendar -->
+            <div class="full-calendar">
+                <h3>Full 2025 Season Calendar</h3>
+                <div class="calendar-grid">
+                    <div class="calendar-month">
+                        <h4>March</h4>
+                        <div class="calendar-races">
+                            <div class="calendar-race completed">
+                                <span class="race-name">Bahrain GP</span>
+                                <span class="race-date">Mar 2</span>
+                            </div>
+                            <div class="calendar-race completed">
+                                <span class="race-name">Saudi Arabian GP</span>
+                                <span class="race-date">Mar 9</span>
+                            </div>
+                            <div class="calendar-race completed">
+                                <span class="race-name">Australian GP</span>
+                                <span class="race-date">Mar 23</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="calendar-month">
+                        <h4>April</h4>
+                        <div class="calendar-races">
+                            <div class="calendar-race completed">
+                                <span class="race-name">Japanese GP</span>
+                                <span class="race-date">Apr 6</span>
+                            </div>
+                            <div class="calendar-race completed">
+                                <span class="race-name">Chinese GP</span>
+                                <span class="race-date">Apr 20</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="calendar-month">
+                        <h4>May</h4>
+                        <div class="calendar-races">
+                            <div class="calendar-race completed">
+                                <span class="race-name">Miami GP</span>
+                                <span class="race-date">May 4</span>
+                            </div>
+                            <div class="calendar-race completed">
+                                <span class="race-name">Emilia Romagna GP</span>
+                                <span class="race-date">May 18</span>
+                            </div>
+                            <div class="calendar-race completed">
+                                <span class="race-name">Monaco GP</span>
+                                <span class="race-date">May 25</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="calendar-month">
+                        <h4>December</h4>
+                        <div class="calendar-races">
+                            <div class="calendar-race upcoming">
+                                <span class="race-name">Italian GP</span>
+                                <span class="race-date">Dec 15</span>
+                            </div>
+                            <div class="calendar-race">
+                                <span class="race-name">Singapore GP</span>
+                                <span class="race-date">Dec 22</span>
+                            </div>
+                            <div class="calendar-race">
+                                <span class="race-name">Japanese GP</span>
+                                <span class="race-date">Dec 29</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results & Standings Section -->
+    <section class="results-content" id="results-tab" style="display: none;">
+        <div class="container">
+            <div class="results-grid">
+                <!-- Driver Standings -->
+                <div class="standings-section">
+                    <h3>Driver Championship</h3>
+                    <div class="standings-table">
+                        <div class="standings-header">
+                            <span>Pos</span>
+                            <span>Driver</span>
+                            <span>Team</span>
+                            <span>Points</span>
+                        </div>
+                        <div class="standings-row">
+                            <span class="position">1</span>
+                            <span class="driver">Max Verstappen</span>
+                            <span class="team">Red Bull Racing</span>
+                            <span class="points">393</span>
+                        </div>
+                        <div class="standings-row">
+                            <span class="position">2</span>
+                            <span class="driver">Lando Norris</span>
+                            <span class="team">McLaren</span>
+                            <span class="points">331</span>
+                        </div>
+                        <div class="standings-row">
+                            <span class="position">3</span>
+                            <span class="driver">Charles Leclerc</span>
+                            <span class="team">Ferrari</span>
+                            <span class="points">307</span>
+                        </div>
+                        <div class="standings-row highlighted">
+                            <span class="position">4</span>
+                            <span class="driver">George Russell</span>
+                            <span class="team">Mercedes</span>
+                            <span class="points">245</span>
+                        </div>
+                        <div class="standings-row">
+                            <span class="position">5</span>
+                            <span class="driver">Oscar Piastri</span>
+                            <span class="team">McLaren</span>
+                            <span class="points">197</span>
+                        </div>
+                        <div class="standings-row highlighted">
+                            <span class="position">6</span>
+                            <span class="driver">Kimi Antonelli</span>
+                            <span class="team">Mercedes</span>
+                            <span class="points">156</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Constructor Standings -->
+                <div class="standings-section">
+                    <h3>Constructor Championship</h3>
+                    <div class="standings-table">
+                        <div class="standings-header">
+                            <span>Pos</span>
+                            <span>Team</span>
+                            <span>Points</span>
+                            <span>Gap</span>
+                        </div>
+                        <div class="standings-row">
+                            <span class="position">1</span>
+                            <span class="team">McLaren</span>
+                            <span class="points">528</span>
+                            <span class="gap">-</span>
+                        </div>
+                        <div class="standings-row">
+                            <span class="position">2</span>
+                            <span class="team">Red Bull Racing</span>
+                            <span class="points">475</span>
+                            <span class="gap">-53</span>
+                        </div>
+                        <div class="standings-row">
+                            <span class="position">3</span>
+                            <span class="team">Ferrari</span>
+                            <span class="points">441</span>
+                            <span class="gap">-87</span>
+                        </div>
+                        <div class="standings-row highlighted">
+                            <span class="position">4</span>
+                            <span class="team">Mercedes</span>
+                            <span class="points">401</span>
+                            <span class="gap">-127</span>
+                        </div>
+                        <div class="standings-row">
+                            <span class="position">5</span>
+                            <span class="team">Aston Martin</span>
+                            <span class="points">86</span>
+                            <span class="gap">-442</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Latest Race Results -->
+            <div class="latest-results">
+                <h3>Latest Race Results - Dutch Grand Prix</h3>
+                <div class="results-table">
+                    <div class="results-header">
+                        <span>Pos</span>
+                        <span>Driver</span>
+                        <span>Team</span>
+                        <span>Time/Gap</span>
+                        <span>Points</span>
+                    </div>
+                    <div class="results-row">
+                        <span class="position winner">1</span>
+                        <span class="driver">Lando Norris</span>
+                        <span class="team">McLaren</span>
+                        <span class="time">1:30:45.519</span>
+                        <span class="points">25</span>
+                    </div>
+                    <div class="results-row">
+                        <span class="position">2</span>
+                        <span class="driver">Max Verstappen</span>
+                        <span class="team">Red Bull Racing</span>
+                        <span class="time">+22.896s</span>
+                        <span class="points">18</span>
+                    </div>
+                    <div class="results-row">
+                        <span class="position">3</span>
+                        <span class="driver">Charles Leclerc</span>
+                        <span class="team">Ferrari</span>
+                        <span class="time">+25.439s</span>
+                        <span class="points">15</span>
+                    </div>
+                    <div class="results-row highlighted">
+                        <span class="position">4</span>
+                        <span class="driver">George Russell</span>
+                        <span class="team">Mercedes</span>
+                        <span class="time">+32.317s</span>
+                        <span class="points">12</span>
+                    </div>
+                    <div class="results-row">
+                        <span class="position">5</span>
+                        <span class="driver">Oscar Piastri</span>
+                        <span class="team">McLaren</span>
+                        <span class="time">+49.183s</span>
+                        <span class="points">10</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>H2PETRONS</h3>
+                        <p>Accelerating F1 Research & Community</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Research</h4>
+                    <ul>
+                        <li><a href="#">Browse Research</a></li>
+                        <li><a href="#">Submit Paper</a></li>
+                        <li><a href="#">Research Guidelines</a></li>
+                        <li><a href="#">Peer Review</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="#">Forums</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Member Directory</a></li>
+                        <li><a href="#">Groups</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 H2PETRONS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+
